@@ -1,0 +1,52 @@
+site_name: PT Peek User Guide
+site_url: https://neyrinck.com/ptpeek/docs
+site_description: User guide for PT Peek — Quick Look previews and audio tools for Pro Tools sessions
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.tabs.link
+    - search.highlight
+  icon:
+    logo: material/eye
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - First Launch: getting-started/first-launch.md
+    - Quick Look Preview: getting-started/quick-look.md
+  - Features:
+    - Session Browser: features/session-browser.md
+    - Audio Playback: features/audio-playback.md
+    - Import to Pro Tools: features/import.md
+    - License Activation: features/activation.md
+  - Reference:
+    - Keyboard Shortcuts: reference/shortcuts.md
+    - Supported Formats: reference/formats.md
+    - Troubleshooting: reference/troubleshooting.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+  - attr_list
+  - md_in_html
