@@ -14,6 +14,9 @@ On macOS 12 (Monterey), you can find it in **System Preferences → Users & Grou
 
 ## Activate Your License
 
+!!! tip "Try before you buy"
+    You can download a demo session from **File → Download Demo Session…** to explore PT Peek with full functionality before activating a license.
+
 If you haven't already activated your PT Peek license, you can do it now:
 
 1. Go to **Help → Activate License…**
@@ -39,9 +42,9 @@ If the preview doesn't appear, see [Troubleshooting](../reference/troubleshootin
 
 ## Opening Sessions
 
-There are several ways to open a `.ptx` file with PT Peek:
+There are several ways to open `.ptx` files with PT Peek:
 
 - **Quick Look** — select the file in Finder and press ++space++
-- **Open With** — right-click the file → Open With → PT Peek
+- **Open With** — right-click the file(s) → Open With → PT Peek
 - **Drag and drop** — drag one or more `.ptx` files onto the PT Peek icon in the Dock
 - **File menu** — use File → Open… in PT Peek

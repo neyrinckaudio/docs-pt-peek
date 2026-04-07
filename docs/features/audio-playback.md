@@ -12,9 +12,9 @@ Each audio file and clip row has a small waveform display with a play button. Cl
 
 ## Multi-Mono Playback
 
-PT Peek automatically detects multi-mono file sets (e.g., `Drums.L.wav` + `Drums.R.wav`) and plays them together as stereo.
+PT Peek automatically detects multi-mono file sets (e.g., `Drums.L.wav` + `Drums.R.wav`) and plays them together as a set. If your audio device has more than two channels, extra channels are routed to the device in SMPTE order.
 
-Multi-mono channel detection supports all standard Pro Tools suffixes:
+Multi-mono channel detection supports these Pro Tools suffixes:
 
 | Suffix | Channel |
 |--------|---------|

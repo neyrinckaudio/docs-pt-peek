@@ -23,26 +23,18 @@
 
 **Solutions:**
 
-1. **Check the helper** — open Activity Monitor and search for "PT Peek Helper". It should be running. If not:
+1. **Check that iLok License Manager is installed** — PT Peek requires iLok License Manager to verify your license. If it is not installed, download it from [ilok.com](https://www.ilok.com) and install it.
+
+2. **Make sure iLok License Manager is running** — open Activity Monitor and search for "iLok". The iLok License Manager service should be running. If not, launch iLok License Manager from your Applications folder.
+
+3. **Verify your license is activated** — open iLok License Manager and confirm that your PT Peek license appears and is activated to your computer (not just deposited to your iLok account).
+
+4. **Check the PT Peek helper** — open Activity Monitor and search for "PT Peek Helper". It should be running. If not:
     - Go to **System Settings → General → Login Items**
     - Ensure PT Peek is enabled
     - Quit and relaunch PT Peek
-2. **Reset background task management** — if the helper won't start:
-   ```bash
-   sudo sfltool resetbtm
-   ```
-   Then quit and relaunch PT Peek.
-3. **Check Keychain** — run from Terminal:
-   ```bash
-   "/Applications/PT Peek.app/Contents/MacOS/PT Peek" --check-keychain
-   ```
-   This shows whether the secret key and token are present.
-4. **Clear and restart** — if all else fails:
-   ```bash
-   "/Applications/PT Peek.app/Contents/MacOS/PT Peek" --clear-keychain
-   "/Applications/PT Peek.app/Contents/MacOS/PT Peek" --unregister-helper
-   ```
-   Then relaunch PT Peek.
+
+If the issue persists, visit [neyrinck.com/support](https://neyrinck.com/support) for further assistance.
 
 ## Import to Pro Tools Fails
 
@@ -84,24 +76,5 @@ If PT Peek becomes unresponsive:
 
 1. Force quit: ++cmd+option+esc++ → select PT Peek → Force Quit
 2. Check Console.app for crash logs under PT Peek
-3. Report the issue with the crash log
+3. Report the issue with the crash log at [neyrinck.com/support](https://neyrinck.com/support)
 
-## Debug Commands
-
-These can be run from Terminal for advanced troubleshooting:
-
-```bash
-APP="/Applications/PT Peek.app/Contents/MacOS/PT Peek"
-
-# Check license token status
-"$APP" --check-keychain
-
-# Delete token file (keeps secret key)
-"$APP" --delete-token
-
-# Delete both secret key and token
-"$APP" --clear-keychain
-
-# Unregister the background helper
-"$APP" --unregister-helper
-```

@@ -1,6 +1,6 @@
 # Import to Pro Tools
 
-PT Peek can import tracks, audio files, and clips directly into a running Pro Tools session.
+PT Peek can import tracks, audio files, and clips directly into an open Pro Tools session.
 
 ## Requirements
 

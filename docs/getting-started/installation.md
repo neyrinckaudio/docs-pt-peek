@@ -2,7 +2,7 @@
 
 ## Download
 
-Download the latest PT Peek installer from [neyrinck.com/ptpeek](https://neyrinck.com/ptpeek).
+Download the latest PT Peek installer from [neyrinck.com/downloads/pt-peek](https://neyrinck.com/downloads/pt-peek).
 
 The download is a macOS installer package (`.pkg`). It is signed and notarized by Apple, so you can install it with confidence.
 
