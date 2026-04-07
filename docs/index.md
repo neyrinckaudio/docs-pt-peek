@@ -1,6 +1,6 @@
 # PT Peek User Guide
 
-**PT Peek** is a macOS app that lets you preview and browse Pro Tools session files (`.ptx`) directly from the Finder — without opening Pro Tools. Reveal online files in Finder, see offline paths, and if Pro Tools is open, you can quickly import tracks, files, and clips.
+**PT Peek** is a macOS app that gives you instant visibility into your Pro Tools sessions — tracks, audio files, clips, plugins, and more. Preview and browse Pro Tools session files (`.ptx`) directly from the Finder — without opening Pro Tools. Reveal online files in Finder, see offline paths, and if Pro Tools is open, you can quickly import tracks, files, and clips.
 
 ## What PT Peek Does
 
