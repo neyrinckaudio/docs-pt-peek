@@ -6,6 +6,14 @@ Download the latest PT Peek installer from [neyrinck.com/ptpeek](https://neyrinc
 
 The download is a macOS installer package (`.pkg`). It is signed and notarized by Apple, so you can install it with confidence.
 
+## Prerequisites
+
+PT Peek requires **iLok License Manager** to be installed for license verification. If you don't already have it:
+
+1. Visit [ilok.com](https://www.ilok.com)
+2. Download and install iLok License Manager
+3. If you don't have an iLok account, create one — you'll need it to activate your PT Peek license
+
 ## Install
 
 1. Double-click the `.pkg` file
