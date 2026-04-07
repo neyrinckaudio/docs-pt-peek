@@ -15,10 +15,8 @@ PT Peek licenses are available through your iLok account. You need:
 2. Go to **Help → Activate License…**
 3. Enter your iLok Login ID
 4. Click **Sign in with iLok**
-5. Your browser opens to the iLok authorization page
-6. Sign in and authorize PT Peek
-7. The browser redirects back and PT Peek receives the authorization
-8. Follow the prompts to activate the license to your computer
+5. Sign in with your iLok credentials in the activation window
+6. Follow the prompts to activate the license to your computer
 
 ## License Status
 

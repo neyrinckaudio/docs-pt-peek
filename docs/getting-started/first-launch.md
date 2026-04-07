@@ -12,6 +12,17 @@ On macOS 13 (Ventura) and later, you may see a notification that "PT Peek added 
 
 On macOS 12 (Monterey), you can find it in **System Preferences → Users & Groups → Login Items**.
 
+## Activate Your License
+
+If you haven't already activated your PT Peek license, you can do it now:
+
+1. Go to **Help → Activate License…**
+2. Enter your iLok Login ID and click **Sign in with iLok**
+3. Sign in with your iLok credentials in the activation window
+4. Follow the prompts to activate the license to your computer
+
+See [License Activation](../features/activation.md) for more details.
+
 !!! tip "You only need to launch PT Peek once"
     After the first launch, the Quick Look extension works in Finder even when PT Peek is not running. Your license is verified automatically.
 
