@@ -11,12 +11,25 @@ PT Peek licenses are available through your iLok account. You need:
 
 ## Activating
 
+Licenses can be activated to an iLok USB key or to a computer (machine license).
+
 1. Open PT Peek
 2. Go to **Help → Activate License…**
 3. Enter your iLok Login ID
 4. Click **Sign in with iLok**
 5. Sign in with your iLok credentials in the activation window
-6. Follow the prompts to activate the license to your computer
+6. Choose whether to activate the license to your computer or to a connected iLok USB key
+7. Follow the prompts to complete activation
+
+## Moving a License to a New Computer
+
+If you activated a license to a computer (machine license) and you change to a new computer, you must deactivate the license on the old computer before activating it on the new one:
+
+1. On the **old computer**, open iLok License Manager
+2. Find your PT Peek license and deactivate it
+3. On the **new computer**, open PT Peek and follow the activation steps above
+
+If you activated your license to an iLok USB key, simply plug the key into the new computer — no deactivation is needed.
 
 ## License Status
 

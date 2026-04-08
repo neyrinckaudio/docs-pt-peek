@@ -1,5 +1,7 @@
 # Troubleshooting
 
+Before trying the steps below, go to **Help → Troubleshooting** in the PT Peek app. This runs a diagnostic check and can detect common problems automatically.
+
 ## Quick Look Preview Not Showing
 
 **Symptom:** Pressing ++space++ on a `.ptx` file shows the default icon instead of the PT Peek preview.
