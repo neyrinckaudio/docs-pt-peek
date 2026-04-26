@@ -7,7 +7,7 @@ PT Peek adds a Quick Look extension for Pro Tools session files (`.ptx`). Press 
 The Quick Look preview displays:
 
 - **Session Setup** — sample rate, bit depth, session length, start time
-- **Overview** — universe showing all tracks and clip positions, tempo and meter
+- **Overview** — universe showing all tracks and clip positions, timeline ruler, tempo and meter
 - **Tracks** — list of all tracks with color, type, format, and plugin inserts
 - **Plugins** — active and inactive plugins used in the session
 - **Audio Files** — all audio files referenced by the session and the path
@@ -28,6 +28,8 @@ Without a license, the preview shows:
 
 With a valid license, all sections show full detail.
 
+If you don't have a license yet, you can still see all sections in full detail by using the [Demo Session](#demo-session).
+
 ## Workflow Tips
 
 1. **Open only the sections you need** — expand just the section relevant to what you're looking for. PT Peek remembers your layout, so the next session you preview will show the same sections open, letting you zero in on the info you care about.
@@ -42,12 +44,14 @@ If you don't have a license yet, you can try PT Peek with a built-in demo sessio
 
 1. Launch the PT Peek app
 2. Go to **File → Download Demo Session…**
-3. A `.zip` file will download. Double-click it to expand the full session folder.
+3. PT Peek downloads the demo session to your `~/Downloads` folder, automatically unzips it, and opens a session browser window for it
 
-### Previewing the Demo Session
+### Previewing the Demo Session Later
 
-1. Open the expanded session folder in Finder
-2. Select the `.ptx` file
+Once downloaded, you can preview the demo session at any time:
+
+1. In Finder, open `~/Downloads` and locate the demo session folder
+2. Select the `.ptx` file inside
 3. Press ++space++ to preview — all sections will display with full detail
 
 ### Important

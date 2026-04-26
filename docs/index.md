@@ -5,10 +5,9 @@
 ## What PT Peek Does
 
 - **Quick Look Preview** — press Space on any `.ptx` file in Finder to see session details instantly
-- **Session Browser Windows** — open `.ptx` files to explore tracks, clips, audio files,  plugins, and much more.
-- **Audio Playback** — play back audio files and clips, interleaved and multi-mono
+- **Session Browser Windows** — open `.ptx` files to explore tracks, clips, audio files, plugins, and much more.
+- **Audio Playback** — play back audio files and clips, interleaved and multi-mono, through your system's default audio output
 - **Import to Pro Tools** — import tracks, clips, and audio files directly into a running Pro Tools session
-- **Output Device Selection** — route playback to any audio output device on your system
 
 ## Requirements
 
@@ -22,4 +21,7 @@
 1. [Install PT Peek](getting-started/installation.md)
 2. [Launch the app](getting-started/first-launch.md) to register the Quick Look extension
 3. Select any `.ptx` file in Finder, press ++space++ to preview it
-4. Right-click → Open With → PT Peek, use File → Open, or drag files onto the PT Peek icon in the Dock for full session browser windows
+4. To open a full session browser window, do any of the following:
+    - Right-click the file → **Open With → PT Peek**
+    - In PT Peek, use **File → Open…**
+    - Drag one or more `.ptx` files onto the PT Peek icon in the Dock

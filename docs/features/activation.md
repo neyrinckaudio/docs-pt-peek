@@ -16,10 +16,12 @@ Licenses can be activated to an iLok USB key or to a computer (machine license).
 1. Open PT Peek
 2. Go to **Help → Activate License…**
 3. Enter your iLok Login ID
-4. Click **Sign in with iLok**
-5. Sign in with your iLok credentials in the activation window
+4. Click **Sign in with iLok** — your default web browser opens to complete iLok sign-in
+5. After signing in, return to PT Peek
 6. Choose whether to activate the license to your computer or to a connected iLok USB key
 7. Follow the prompts to complete activation
+
+Once activated, the license picker shows full details for each license — type, activation date, expiration (if any), and the number of remaining activations.
 
 ## Moving a License to a New Computer
 
@@ -36,14 +38,9 @@ If you activated your license to an iLok USB key, simply plug the key into the n
 The license status appears in the session browser:
 
 - **Licensed** — all sections show full detail
-- **Unlicensed** — a banner appears with options to activate or try the example session
+- **Unlicensed** — a banner appears with options to activate or download the demo session
 - **License expired** — PT Peek checks periodically; if the license lapses, content is obscured until renewed
 
-## Example Session
+## Demo Session
 
-You can try PT Peek without a license using the built-in example session:
-
-- **File → Download Example Session…**
-- Or click **"Try Example Session…"** in the unlicensed banner
-
-The example session displays with full detail regardless of license status.
+You can try PT Peek without a license using the built-in demo session, which displays with full detail regardless of license status. See [Demo Session](../getting-started/quick-look.md#demo-session) for details on downloading and using it.

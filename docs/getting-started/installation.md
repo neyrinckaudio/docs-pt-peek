@@ -30,4 +30,6 @@ To remove PT Peek:
 
 ## Updating
 
-Download and run the latest installer. It will replace the previous version. Your settings and license are preserved.
+PT Peek includes a built-in auto-update system. When a new version is available, PT Peek prompts you to download and install it the next time you launch the app. You can also check for updates manually from **PT Peek → Check for Updates…**.
+
+If you'd rather update manually, download and run the latest installer from the downloads page. It will replace the previous version. Your settings and license are preserved.

@@ -1,6 +1,6 @@
 # First Launch
 
-After installing PT Peek, launch it once to register the Quick Look extension with macOS.
+After installing PT Peek the first time, launch it to register the Quick Look extension with macOS.
 
 ## What Happens on First Launch
 

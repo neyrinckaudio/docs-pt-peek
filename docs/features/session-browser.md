@@ -10,14 +10,15 @@ A grid showing session parameters, similar to the Pro Tools Session Setup window
 
 - Sample Rate, Bit Depth, Audio Format
 - Session Start, Length
+- Pan Depth, Interleaved, Timecode Rate
 
 ### Overview
 
-This represents the top are of the timeline:
+This represents the top area of the timeline:
 
-- A miniature timeline view similar to the Pro Tools universe view. Each clip is drawn as a colored rectangle matching its Pro Tools color. Tracks are stacked vertically.
-
-- Tempo and Meter (including change indicators)
+- A **universe view** similar to the Pro Tools universe — each clip is drawn as a colored rectangle matching its Pro Tools color, with tracks stacked vertically. Clips that are selected elsewhere in the browser are highlighted in the universe so you can see at a glance where they sit in the session.
+- A **ruler** above the universe with selectable display modes: **Min:Sec**, **Timecode**, **Bars|Beats**, **Feet+Frames**, and **Samples**. The ruler defaults to the session's Main Counter format.
+- **Tempo** and **Meter** (including change indicators)
 
 ### Tracks
 
@@ -31,6 +32,10 @@ A detailed list of every track in the session:
 - **Comments** — track comments
 
 Click a track to select it. Expand a track to see its clips.
+
+#### Folder Tracks
+
+Folder tracks are shown with their full hierarchy and are always expanded — nested tracks are visible at all times. PT Peek labels folders as **routing folders** or **basic folders** so you can distinguish their function at a glance.
 
 ### Audio Files
 
@@ -52,6 +57,17 @@ Lists all plugins used in the session, separated into Active and Inactive groups
 ### Memory Locations
 
 Lists all locations with name and color.
+
+## Toolbar
+
+Each session browser window has a title-bar toolbar with:
+
+- **Open with Pro Tools** — opens the `.ptx` file directly in Pro Tools
+- **Refresh** (++cmd+r++) — re-reads the session file from disk
+
+## Reveal in Finder
+
+Right-click any audio file or clip row to **Reveal in Finder**. This works for files that are online (accessible on disk) and shows their location in a Finder window.
 
 ## Selection
 

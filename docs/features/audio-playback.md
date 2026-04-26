@@ -33,16 +33,9 @@ Multi-mono channel detection supports these Pro Tools suffixes:
 PT Peek uses macOS Core Audio for playback. This provides:
 
 - **Direct channel routing** — each mono file routes to the corresponding output channel
-- **Device-aware mixing** — automatically adapts to the selected output device's channel count
+- **Device-aware mixing** — automatically adapts to the system default output's channel count
 - **Low latency** — files play directly from disk
 
-## Output Device Selection
+## Output Device
 
-Use the device picker in the session browser header to select an output device. Available devices include:
-
-- Built-in speakers/headphones
-- USB audio interfaces
-- Bluetooth audio devices
-- Virtual audio devices (e.g., Pro Tools Audio Bridge)
-
-The device list updates automatically when devices are connected or disconnected.
+PT Peek plays through your **system default audio output**. To change where playback is routed, change your default output device in **System Settings → Sound** (or by ++option++-clicking the volume icon in the menu bar).

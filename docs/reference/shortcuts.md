@@ -11,6 +11,7 @@
 | Shortcut | Action |
 |----------|--------|
 | ++cmd+o++ | Open file |
+| ++cmd+r++ | Refresh — re-read the session file from disk |
 | ++cmd+shift+r++ | Reveal selected file in Finder |
 
 ## Import
