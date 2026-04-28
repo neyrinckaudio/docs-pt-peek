@@ -35,6 +35,7 @@ nav:
     - Session Browser: features/session-browser.md
     - Audio Playback: features/audio-playback.md
     - Import to Pro Tools: features/import.md
+    - Export Session Report: features/export-report.md
     - License Activation: features/activation.md
   - Reference:
     - Keyboard Shortcuts: reference/shortcuts.md

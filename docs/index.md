@@ -8,6 +8,7 @@
 - **Session Browser Windows** — open `.ptx` files to explore tracks, clips, audio files, plugins, and much more.
 - **Audio Playback** — play back audio files and clips, interleaved and multi-mono, through your system's default audio output
 - **Import to Pro Tools** — import tracks, clips, and audio files directly into a running Pro Tools session
+- **Export Session Report** — save a multi-page PDF of the full session for archiving or sharing
 
 ## Requirements
 
