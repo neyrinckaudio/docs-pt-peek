@@ -1,6 +1,10 @@
 # Import to Pro Tools
 
-PT Peek can import tracks, audio files, and clips directly into an open Pro Tools session.
+PT Peek can import basic track, file, and clip data into an open Pro Tools session (Pro Tools 2025.6 or later).
+
+1. **Tracks** - Track (type, name, and color), audio files, and clips spotted to the track.
+2. **Audio Files** - Optionally copied. Optionally sample rate converted.
+3. **Clips** - Individual clips, not organized as region groups.
 
 ## Requirements
 
@@ -42,14 +46,15 @@ If all checks pass, you see a list of items to import with a **Cancel** / **Impo
 
 Importing a track creates:
 
-- A new track in Pro Tools with the same name, type, and format
+- A new track in Pro Tools with the same name, type, color, and format
 - All audio files used by the track's clips are imported to the clip list
 - Clips are created with the correct source offset and length
 - Clips are spotted at their original timeline positions
+- Clips are not combined into groups
 
 ### Audio Files
 
-Importing audio files adds them to the Pro Tools clip list. No tracks are created.
+Importing audio files adds them to the Pro Tools clip list. No tracks are created. Files are copied to the destination session's Audio Files directory. If the destination sample rate is different from the source, sample rate conversion will be applied.
 
 ### Clips
 
@@ -60,13 +65,14 @@ Importing clips:
 
 No tracks are created and clips are not placed on the timeline.
 
-## Stereo and Multi-Mono
+## Interleaved and Multi-Mono
 
-PT Peek handles stereo tracks with multi-mono source files correctly:
+PT Peek handles multichannel tracks and files for interleaved and multi-mono cases:
 
-- Each mono file is imported separately
-- Clips reference the mono files with the correct channel routing (Left/Right)
-- The track is created with the appropriate stereo format
+- Tracks are created with the appropriate stem format
+- Source audio files can be interleaved or multi-mono
+- Audio files that are copied will match the destination session's session setup: interleaved or multi-mono
+- 
 
 ## Error Handling
 
