@@ -6,6 +6,33 @@ PT Peek can import basic track, file, and clip data into an open Pro Tools sessi
 2. **Audio Files** - Optionally copied. Optionally sample rate converted.
 3. **Clips** - Individual clips, not organized as region groups.
 
+!!! warning "Import is intentionally limited"
+    PT Peek's Import to Pro Tools is **basic by design** — it is constrained by what the Pro Tools scripting API exposes. Many things that Pro Tools' own **File → Import Session Data…** can do are simply not available to third-party tools. In particular, PT Peek import does **not** transfer:
+
+    - Plugins, plugin settings, or insert order
+    - Sends, busing, I/O assignments, or routing folder relationships
+    - Automation (volume, pan, plugin parameters, mute)
+    - Track groups, VCA assignments, or hidden/inactive states
+    - Region groups, clip gain, fades, or crossfades
+    - Memory locations, markers, tempo/meter maps
+    - MIDI data and Instrument track parameters
+    - Mix window state, comments, or color groupings beyond track color
+
+    If you need any of the above, see [Using PT Peek with Pro Tools Import](#using-pt-peek-with-pro-tools-import) below.
+
+## Using PT Peek with Pro Tools Import
+
+PT Peek is most powerful when you use it as a **session browser** to find what you want before doing a full-featured import inside Pro Tools itself. A typical workflow:
+
+1. **Browse with PT Peek** — open the source `.ptx` in PT Peek to see all of its tracks, clips, plugins, and audio files at a glance, without launching Pro Tools.
+2. **Audition** — play back audio files and clips inline to confirm you've found the right material.
+3. **Locate files** — right-click any audio file or clip and choose **Reveal in Finder** to see exactly where it lives on disk.
+4. **Note the tracks you want** — write down (or remember) the track names you need to bring across.
+5. **Switch to Pro Tools** — in your destination session, choose **File → Import → Session Data…** and point it at the same source `.ptx`.
+6. **Cherry-pick in Pro Tools' import dialog** — check only the tracks you identified in PT Peek, and choose exactly which elements to import (plugins, sends, automation, groups, markers, tempo map, and so on).
+
+This combination gives you PT Peek's fast browsing and listening with Pro Tools' full-featured import.
+
 ## Requirements
 
 - **Pro Tools 2025.6 or later** must be running
