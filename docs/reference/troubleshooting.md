@@ -27,6 +27,7 @@ Both commands show a confirmation when your report is sent successfully.
    ```bash
    /System/Library/Frameworks/CoreServices.framework/Versions/Current/Frameworks/LaunchServices.framework/Versions/Current/Support/lsregister -f -R -trusted /Applications/PT\ Peek.app
    ```
+5. **Use APFS formatted disk** - macOS Tahoe and later might not provide Quick Look for non-APFS formatted drives. 
 
 ## License Not Detected
 
