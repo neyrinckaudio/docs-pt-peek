@@ -15,6 +15,26 @@
 | ++cmd+r++ | Refresh — re-read the session file from disk |
 | ++cmd+shift+r++ | Reveal selected file in Finder |
 
+## Search
+
+| Shortcut | Action |
+|----------|--------|
+| ++cmd+f++ | Focus the toolbar search field |
+
+## Overview Zoom
+
+| Shortcut | Action |
+|----------|--------|
+| ++cmd++ ++"]"++ | Zoom in horizontally |
+| ++cmd++ ++"["++ | Zoom out horizontally |
+| ++cmd+right++ | Zoom in horizontally (View menu alias) |
+| ++cmd+left++ | Zoom out horizontally (View menu alias) |
+| ++ctrl+opt+up++ | Zoom in vertically |
+| ++ctrl+opt+down++ | Zoom out vertically |
+| ++cmd+up++ | Zoom in vertically (View menu alias) |
+| ++cmd+down++ | Zoom out vertically (View menu alias) |
+| ++cmd+0++ | Reset zoom to fit |
+
 ## Import
 
 | Shortcut | Action |

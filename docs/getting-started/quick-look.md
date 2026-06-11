@@ -7,12 +7,21 @@ PT Peek adds a Quick Look extension for Pro Tools session files (`.ptx`). Press 
 The Quick Look preview displays:
 
 - **Session Setup** — sample rate, bit depth, session length, start time
-- **Overview** — universe showing all tracks and clip positions, timeline ruler, tempo and meter
+- **Overview** — timeline view showing all tracks and clip positions, with ruler, tempo and meter
 - **Tracks** — list of all tracks with color, type, format, and plugin inserts
 - **Plugins** — active and inactive plugins used in the session
 - **Audio Files** — all audio files referenced by the session and the path
 - **Clips** — all clips (colored) with their source audio files
 - **Locations** — all memory location names along with a color
+
+## Interactive Overview
+
+The Quick Look preview's Overview is interactive:
+
+- Use the four triangle zoom buttons in the Overview section header to zoom horizontally and vertically.
+- Drag the bottom edge of the Overview to resize it.
+- Drag a rectangle in the Overview to filter the Tracks, Audio Files, and Clips sections to just what's inside the rectangle. Click without dragging to clear.
+- Click a track, audio file, or clip row to highlight it.
 
 ## Sections
 

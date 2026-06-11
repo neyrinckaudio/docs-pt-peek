@@ -5,10 +5,27 @@
 ## What PT Peek Does
 
 - **Quick Look Preview** — press Space on any `.ptx` file in Finder to see session details instantly
-- **Session Browser Windows** — open `.ptx` files to explore tracks, clips, audio files, plugins, and much more.
+- **Session Browser Windows** — open `.ptx` files to explore tracks, clips, audio files, plugins, and much more
 - **Audio Playback** — play back audio files and clips, interleaved and multi-mono, through your system's default audio output
 - **Import to Pro Tools** — import basic track data, clips, and audio files directly into a running Pro Tools session
 - **Export Session Report** — save a multi-page PDF of the full session for archiving or sharing
+
+## What's New in 1.1
+
+PT Peek 1.1 makes the Overview the center of navigation, and adds search, filtering, and per-file persistence:
+
+- **Zoomable / pannable Overview** — horizontal and vertical zoom with Pro Tools-style shortcuts, scroll bars, and inline triangle buttons
+- **Overview rectangle selection** — drag in the Overview to filter Tracks, Audio Files, and Clips to just what's inside
+- **Pinned Session Setup and Overview** — they stay visible at the top while the lower sections scroll
+- **Toolbar search and scope picker** (++cmd+f++) — filter Tracks, Audio Files, and Clips by name; matching sections auto-expand and show "N of M"
+- **Resizable Name columns** in Tracks, Audio Files, and Clips
+- **Memory Locations Start column** that follows the Overview ruler's format
+- **Overview playback indicator** — a vertical line tracks inline playback through the Overview
+- **Filter-aware import** — imports only the clips currently visible after filtering
+- **Per-file persistence** — each `.ptx` window remembers its size, zoom, rectangle, open sections, and column widths
+- **Quick Look gets the same Overview controls** — zoom buttons, height drag, rectangle filtering
+
+A **What's New** dialog appears the first time you launch 1.1 with a short summary of these changes.
 
 ## Requirements
 

@@ -11,6 +11,11 @@ PT Peek has built-in commands to send feedback directly to Neyrinck:
 
 Both commands show a confirmation when your report is sent successfully.
 
+## Helper Not Responsive
+
+PT Peek Helper can become unresponsive after restarting or logging out and back in. The cause is that the iLok licensing system is not available when macOS launched the PT Peek Helper. We are working hard to 
+
+
 ## Quick Look Preview Not Showing
 
 **Symptom:** Pressing ++space++ on a `.ptx` file shows the default icon instead of the PT Peek preview.

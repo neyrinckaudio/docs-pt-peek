@@ -56,6 +56,9 @@ This combination gives you PT Peek's fast browsing and listening with Pro Tools'
 
 Right-click any track to import it and its clips.
 
+!!! tip "Imports respect your current filters"
+    When you import tracks with an Overview rectangle or a search filter active, only the **currently visible** clips on each track are imported. Hidden clips are skipped. This lets you trim a track down to just the clips you want by filtering first, then importing. See [Search and Filter](session-browser.md#search-and-filter) and [Filter by Overview Rectangle](session-browser.md#filter-by-overview-rectangle).
+
 ## Import Dialog
 
 Before importing, PT Peek shows a dialog that verifies:
