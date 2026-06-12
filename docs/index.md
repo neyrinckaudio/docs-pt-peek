@@ -15,12 +15,15 @@
 PT Peek 1.1 makes the Overview the center of navigation, and adds search, filtering, and per-file persistence:
 
 - **Zoomable / pannable Overview** — horizontal and vertical zoom with Pro Tools-style shortcuts, scroll bars, and inline triangle buttons
+- **Adjustable Overview height** — drag the bottom edge of the Overview to grow or shrink it
 - **Overview rectangle selection** — drag in the Overview to filter Tracks, Audio Files, and Clips to just what's inside
 - **Pinned Session Setup and Overview** — they stay visible at the top while the lower sections scroll
 - **Toolbar search and scope picker** (++cmd+f++) — filter Tracks, Audio Files, and Clips by name; matching sections auto-expand and show "N of M"
 - **Resizable Name columns** in Tracks, Audio Files, and Clips
-- **Memory Locations Start column** that follows the Overview ruler's format
 - **Overview playback indicator** — a vertical line tracks inline playback through the Overview
+- **Waveform double-click** to start playback on audio file and clip rows
+- **Option-click a section header** to open or close all sections (Tracks, Audio Files, Clips, Plugins, Memory Locations) at once
+- **Option-click a track disclosure** to expand or collapse every track in the Tracks section at once
 - **Filter-aware import** — imports only the clips currently visible after filtering
 - **Per-file persistence** — each `.ptx` window remembers its size, zoom, rectangle, open sections, and column widths
 - **Quick Look gets the same Overview controls** — zoom buttons, height drag, rectangle filtering
