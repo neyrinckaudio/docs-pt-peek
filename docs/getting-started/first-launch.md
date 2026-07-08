@@ -24,7 +24,7 @@ If you haven't already activated your PT Peek license, you can do it now:
 3. Sign in with your iLok credentials in the activation window
 4. Follow the prompts to activate the license to your computer
 
-See [License Activation](../features/activation.md) for more details.
+See [Licensing](../features/activation.md) for more details.
 
 !!! tip "You only need to launch PT Peek once"
     After the first launch, the Quick Look extension works in Finder even when PT Peek is not running. Your license is verified automatically.

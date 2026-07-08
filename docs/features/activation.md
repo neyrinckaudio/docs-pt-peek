@@ -1,6 +1,6 @@
-# License Activation
+# Licensing
 
-PT Peek requires an iLok license for full functionality. Without a license, the Quick Look preview and session browser show limited information (session setup and overview only; tracks, clips, and audio files are obscured).
+PT Peek requires an iLok license, activated to an iLok USB key or to a computer (machine license), for full functionality. Without a license, the Quick Look preview and session browser show limited information (session setup and overview only; tracks, clips, and audio files are obscured).
 
 ## Getting a License
 
@@ -23,15 +23,21 @@ Licenses can be activated to an iLok USB key or to a computer (machine license).
 
 Once activated, the license picker shows full details for each license — type, activation date, expiration (if any), and the number of remaining activations.
 
-## Moving a License to a New Computer
+## Deactivation
 
-If you activated a license to a computer (machine license) and you change to a new computer, you must deactivate the license on the old computer before activating it on the new one:
+Deactivating a license returns it to your iLok account so it can be activated somewhere else (for example, on a new computer). You can do this from inside PT Peek — you don't need iLok License Manager.
 
-1. On the **old computer**, open iLok License Manager
-2. Find your PT Peek license and deactivate it
-3. On the **new computer**, open PT Peek and follow the activation steps above
+1. Open PT Peek
+2. Go to **Help → Deactivate License…**
+3. Enter your iLok Login ID and click **Sign in with iLok** — your default web browser opens to complete iLok sign-in
+4. After signing in, return to PT Peek — a list of your current activations appears
+5. Click the activation you want to deactivate (each entry shows the product name and where it's activated — this computer or an iLok USB key)
+6. Click **Deactivate** to confirm
 
-If you activated your license to an iLok USB key, simply plug the key into the new computer — no deactivation is needed.
+Once complete, the license returns to your iLok account and is available for a fresh activation.
+
+!!! tip "Moving a license to a new computer"
+    If your license is activated to a **computer**, deactivate it on the old computer first (steps above), then activate it on the new one. If your license is activated to an **iLok USB key**, just plug the key into the new computer — no deactivation needed.
 
 ## License Status
 
