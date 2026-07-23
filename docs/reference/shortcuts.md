@@ -35,6 +35,12 @@
 | ++cmd+down++ | Zoom out vertically (View menu alias) |
 | ++cmd+0++ | Reset zoom to fit |
 
+## View
+
+| Shortcut | Action |
+|----------|--------|
+| ++cmd+opt+l++ | Switch between Split View and single column |
+
 ## Import
 
 | Shortcut | Action |

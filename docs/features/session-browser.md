@@ -16,9 +16,9 @@ A grid showing session parameters, similar to the Pro Tools Session Setup window
 
 This represents the top area of the timeline:
 
-- A **timeline view** — each clip is drawn as a colored rectangle matching its Pro Tools color, with tracks stacked vertically. Clips that are selected elsewhere in the browser are highlighted in the Overview so you can see at a glance where they sit in the session.
-- A **ruler** above the Overview with selectable display modes: **Min:Sec**, **Timecode**, **Bars|Beats**, **Feet+Frames**, and **Samples**. The ruler defaults to the session's Main Counter format.
-- **Tempo** and **Meter** (including change indicators)
+- A **timeline view** — each clip is drawn as a colored rectangle matching its Pro Tools color, with tracks stacked vertically. Lanes are zebra-striped for easier scanning, and faint vertical **gridlines** align with the ruler. Clips that are selected elsewhere in the browser are highlighted in the Overview so you can see at a glance where they sit in the session.
+- A pinned **track-name column** beside the timeline lanes — names stay in place as you pan or zoom the timeline horizontally and follow their lanes vertically. The column sizes itself to the lane height.
+- **Tempo**, **Meter** (with change indicators), and a **ruler** — all shown above the timeline. The ruler supports display modes **Min:Sec**, **Timecode**, **Bars|Beats**, **Feet+Frames**, and **Samples**, defaulting to the session's Main Counter format.
 
 The Session Setup and Overview sections are **pinned at the top** of the window. Only the lower sections (Tracks, Audio Files, Clips, Plugins, Memory Locations) scroll, so the Overview and ruler stay visible while you work below.
 
@@ -36,13 +36,14 @@ Zoom recenters around the active selection (selected clips, selected tracks, or 
 
 #### Overview Height
 
-Drag the bottom edge of the Overview to grow or shrink it. Dragging down past the intrinsic full-tracks height makes the Overview taller; dragging up past it auto-zooms vertically so each visible row keeps its natural pixel pitch.
+The Overview opens at a consistent height — up to 12 tracks tall — regardless of the session's track count. Drag the bottom edge to resize it; resizing changes **how many tracks are visible** rather than stretching the tracks themselves. Vertical zoom steps through fixed track heights so lane sizes stay predictable. Small sessions never leave empty space below the tracks.
 
 #### Selecting in the Overview
 
 - **Click a clip** in the Overview to select it (matches the row's behavior in the Clips section). ++cmd++-click toggles, ++shift++-click extends from the anchor.
 - **Drag a rectangle** in the Overview to define an **Overview rectangle** — see [Filter by Overview Rectangle](#filter-by-overview-rectangle) below.
 - When tracks are selected in the Tracks section, a light frame is drawn around their lanes in the Overview.
+- **Auto-scroll to selection** — selecting a track (or one of its clips) in the Tracks section automatically scrolls the Overview to bring that track's lane into view.
 - While a clip is playing inline, a thin accent-colored vertical line marks the playback position in the Overview.
 
 ### Tracks
@@ -91,8 +92,19 @@ Each session browser window has a title-bar toolbar with:
 
 - **Open with Pro Tools** — opens the `.ptx` file directly in Pro Tools
 - **Refresh** (++cmd+r++) — re-reads the session file from disk
+- **Split View toggle** — see [Split View](#split-view) below
 - **Search field** — see [Search and Filter](#search-and-filter) below
 - **Scope picker** — limits the search to a single section
+
+## Split View
+
+Split View shows the Overview and the session lists side by side instead of stacked. Toggle it any of these ways:
+
+- **View → Switch to Split/Single Column** (++cmd+opt+l++)
+- The **Split View button** in the window's toolbar
+- The **button in the Quick Look preview's header** (for the Quick Look version)
+
+A draggable divider between the two panes lets you pick how much room each side gets. Each window remembers its own layout choice, and the setting persists per file.
 
 ## Search and Filter
 

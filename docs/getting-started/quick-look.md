@@ -22,6 +22,9 @@ The Quick Look preview's Overview is interactive:
 - Drag the bottom edge of the Overview to resize it.
 - Drag a rectangle in the Overview to filter the Tracks, Audio Files, and Clips sections to just what's inside the rectangle. Click without dragging to clear.
 - Click a track, audio file, or clip row to highlight it.
+- A pinned **track-name column** sits beside the timeline lanes so you can see which lane is which without opening the file.
+- Use the **Split View button** in the preview's header to switch between stacked and side-by-side layouts.
+- Quick Look **remembers the Overview's zoom and height** between previews, so your preferred view sticks as you arrow through files in Finder.
 
 ## Sections
 

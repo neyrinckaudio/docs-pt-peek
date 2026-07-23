@@ -10,6 +10,17 @@
 - **Import to Pro Tools** — import basic track data, clips, and audio files directly into a running Pro Tools session
 - **Export Session Report** — save a multi-page PDF of the full session for archiving or sharing
 
+## What's New in 1.2
+
+PT Peek 1.2 adds a side-by-side layout, track names inside the Overview, and a cleaner, more predictable Overview:
+
+- **Split View** — show the Overview and the session lists side by side, with a draggable divider. Toggle from **View → Switch to Split/Single Column** (++cmd+opt+l++), from the new toolbar button, or from the button in the Quick Look header.
+- **Track names in the Overview** — a pinned name column sits beside the timeline lanes and stays put as you pan or zoom.
+- **Auto-scroll to selection** — selecting a track (or one of its clips) in the Tracks section scrolls the Overview to bring that track into view.
+- **Quick Look remembers Overview state** — zoom and height persist between previews.
+- **Overview layout refresh** — Tempo/Meter and the ruler now sit above the universe, with faint vertical gridlines aligned to the ruler and zebra-striped lanes for easier scanning.
+- **Predictable Overview sizing** — vertical zoom steps through fixed track heights; the Overview opens at a consistent height (up to 12 tracks) and resizing it changes how many tracks are visible instead of stretching them.
+
 ## What's New in 1.1
 
 PT Peek 1.1 makes the Overview the center of navigation, and adds search, filtering, and per-file persistence:
