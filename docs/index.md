@@ -12,14 +12,14 @@
 
 ## What's New in 1.2
 
-PT Peek 1.2 adds a side-by-side layout, track names inside the Overview, and a cleaner, more predictable Overview:
+PT Peek 1.2 sharpens the Overview and makes large-track-count sessions easier to work with — a new side-by-side layout, track names shown on the timeline, and a cleaner, more predictable Overview:
 
-- **Split View** — show the Overview and the session lists side by side, with a draggable divider. Toggle from **View → Switch to Split/Single Column** (++cmd+opt+l++), from the new toolbar button, or from the button in the Quick Look header.
-- **Track names in the Overview** — a pinned name column sits beside the timeline lanes and stays put as you pan or zoom.
-- **Auto-scroll to selection** — selecting a track (or one of its clips) in the Tracks section scrolls the Overview to bring that track into view.
-- **Quick Look remembers Overview state** — zoom and height persist between previews.
-- **Overview layout refresh** — Tempo/Meter and the ruler now sit above the universe, with faint vertical gridlines aligned to the ruler and zebra-striped lanes for easier scanning.
-- **Predictable Overview sizing** — vertical zoom steps through fixed track heights; the Overview opens at a consistent height (up to 12 tracks) and resizing it changes how many tracks are visible instead of stretching them.
+- **Split View** — new layout option with the Overview and the session data side by side so you can better view sessions with a lot of tracks. Toggle the layout with the new toolbar button or with the new menu item **View → Switch to Split/Single Column** (++cmd+opt+l++).
+- **Overview Track Names** — now the Overview shows track names at the left. The track name font adjusts to the lane height: none, mini, regular. 
+- **Overview Refresh** — added faint vertical grid lines aligned to the ruler and zebra-striped lanes for easier scanning.
+- **Overview Auto-Scroll** — selecting a track (or one of its clips) in the Tracks section scrolls the Overview to bring that track into view.
+- **Overview Resize Height** — previously, adjusting the Overview height would alter the track height. Now, it only changes how many tracks are visible. Use the vertical zoom to adjust track height.
+- **Quick Look Overview** — zoom and height persist between previews.
 
 ## What's New in 1.1
 
