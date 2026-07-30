@@ -9,6 +9,18 @@
 - **Audio Playback** — play back audio files and clips, interleaved and multi-mono, through your system's default audio output
 - **Import to Pro Tools** — import basic track data, clips, and audio files directly into a running Pro Tools session
 - **Export Session Report** — save a multi-page PDF of the full session for archiving or sharing
+- **Session Database** (Pro) — catalog the sessions on your drives so they can be searched without opening them
+- **Multi-Session Search** (Pro) — find sessions across your whole library by session, track, clip, audio file, or plug-in name
+
+## What's New in 1.4 Beta { #whats-new-in-14 }
+
+PT Peek 1.4 adds PT Peek Pro — instead of looking at one session at a time, you can now search across every session on your drives:
+
+- **[Session Database](features/session-database.md)** (Pro) — add drives and folders as **Watch Locations** and PT Peek catalogs the Pro Tools sessions inside them in the background, then keeps the catalog current as you save, move, and delete sessions. The new window (**Window → Show/Hide Session Database**, ++cmd+shift+d++) shows exactly what's indexed, what's offline, and what macOS is blocking, with a live console and a one-click problem report.
+- **[Multi-Session Search](features/multi-session-search.md)** (Pro) — search your whole session library by **session, track, clip, audio file, or plug-in name** (**Window → Show/Hide Multi-Session Search**, ++cmd+shift+s++). Results are instant — no session files are opened and Pro Tools never launches.
+- **See what matched** — expand a result to list only the tracks, clips, audio files, or plug-ins that matched, without opening the session.
+- **Session preview beside the results** — selecting a result shows the full session next to the list, with the matched track, clip, or audio file revealed in place — where you can play it back, just like a session browser window. Double-click (or press ++enter++) to open it in a window of its own.
+- **Narrow the search** — limit a search to a volume or folder with the **Locations** chips, add **criteria rows** for sample rate, bit depth, track count, track type, frame rate, modified date, and more, and include or exclude Pro Tools **Session File Backups**.
 
 ## What's New in 1.2
 

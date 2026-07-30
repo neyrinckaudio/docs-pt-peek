@@ -20,6 +20,8 @@
 | Shortcut | Action |
 |----------|--------|
 | ++cmd+f++ | Focus the toolbar search field |
+| ++cmd+shift+d++ | Show/hide the [Session Database](../features/session-database.md) window (Pro) |
+| ++cmd+shift+s++ | Show/hide the [Multi-Session Search](../features/multi-session-search.md) window (Pro) |
 
 ## Overview Zoom
 
